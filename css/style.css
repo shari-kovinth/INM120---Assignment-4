@@ -175,4 +175,5 @@ h3 {
     gap: 30px;
     margin-top: 2%;
     font-family: 'Montserrat', sans-serif;
+    border-top: 1px solid black;
 }

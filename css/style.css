@@ -159,5 +159,6 @@ h3 {
     width: 50px;
     height: 50px;
     background-size: cover;
+    padding-left: 50px;
     background-image: url(../assets/images/pro.png);
 }

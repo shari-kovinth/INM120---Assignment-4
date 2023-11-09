@@ -162,3 +162,14 @@ h3 {
     padding-left: 50px;
     background-image: url(../assets/images/o1pic.png);
 }
+
+.footer{
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+    margin-top: 2%;
+    font-family: 'Montserrat', sans-serif;
+}

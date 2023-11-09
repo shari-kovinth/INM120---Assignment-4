@@ -1,4 +1,4 @@
-# INM120---Assignment-4
+# INM120 - Assignment 4
 
 Languages: HTML, CSS
 

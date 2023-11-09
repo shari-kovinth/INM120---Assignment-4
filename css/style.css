@@ -156,8 +156,8 @@ h3 {
 }
 
 #o1pic{
-    width: 350px;
-    height: 350px;
+    width: auto;
+    height: auto;
     background-size: cover;
     padding-left: 50px;
     background-image: url(../assets/images/o1pic.png);

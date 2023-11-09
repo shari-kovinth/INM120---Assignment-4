@@ -117,15 +117,13 @@ main {
 
 .offers {
     height: 60%;
-    display: block;
+    display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
     gap: 30px;
     margin-top: 2%;
     font-family: 'Montserrat', sans-serif;
-    font-weight: bolder;
-    font-weight: 900;
 }
 
 .offers > h3 {

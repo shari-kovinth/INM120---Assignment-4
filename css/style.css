@@ -59,6 +59,11 @@ nav > ul {
     padding-right: 50px;
 }
 
+nav > ul > li:hover {
+    font-weight: 900;
+}
+
+
 main {
     width: 100vw;
     height: calc(100vh - 100px);

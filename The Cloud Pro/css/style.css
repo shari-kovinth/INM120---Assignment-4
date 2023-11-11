@@ -5,34 +5,79 @@ font-family: 'Poppins', sans-serif;
 */
 
 body {
+    height: 95vh;
+    background-color: #121212;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    box-sizing: border-box;
     overflow-x: hidden;
-    background-color: white;
+    overflow-y: scroll;
 }
 
-nav > header {
-    display: flex;
+header{
+    position: fixed;
     width: 100vw;
     height: 90px;
-
-    padding: .5rem 1rem;
-    position: fixed;
-    font-family: 'Montserrat', sans-serif;
-
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0px 0px 80px gray;
-
+    background-color: #a43131;
+    padding: 2em 0 2em 0;
+    margin: 5px;
+    box-sizing: border-box;
 }
 
-#slogan {
+
+.main{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 15px;
+    flex: 1;
 }
 
-#navbarButtons {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.left {
+    background-color: #6a1f1f;
+    padding: 3em 0 3em 0;
+    margin: 5px;
+    box-sizing: border-box;
+    flex: 1 1 100px;
+}
+
+main {
+    background-color: #6a1f1f;
+    padding: 3em 0 3em 0;
+    margin: 5px;
+    box-sizing: border-box;
+    flex: 5 5 150px;
+}
+
+.right {
+    background-color: #6a1f1f;
+    padding: 3em 0 3em 0;
+    margin: 5px;
+    box-sizing: border-box;
+    flex: 1 1 100px;
+}
+
+footer {
+    background-color: #6a1f1f;
+    padding: 3em 0 3em 0;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+.logo {
+    background-image: url(/assets/images/Cloud_Logo.png);
+    background-size: cover;
+    width: 120px;
+    height: 120px;
+}
+
+@media all and (max-width: 550px){
+    .main{
+        flex-direction: column;
+    }
+    main{
+        padding: 5em 0 5em 0;
+    }
 }

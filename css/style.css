@@ -4,6 +4,15 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Poppins', sans-serif; 
 */
 
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    font-size: larger;
+    font-weight: 700;
+}
+
 body{
     background-color:#ffffff;
 }
@@ -104,7 +113,7 @@ main {
     text-align: center;
     font-size: 16px;
     border-radius: 12px;
-    transition-duration: 0.2s;
+    transition-duration: 0.4s;
 }
 
 #button:hover{
@@ -113,25 +122,6 @@ main {
 
 }
 
-.offers {
-    height: 60%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    margin-top: 4%;
-    font-family: 'Montserrat', sans-serif;
-    line-height: 25px;
-    padding: 50px 50px 50px 50px;
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
-}
-
-h3 {
-    font-size: larger;
-    font-weight: 700;
-}
 
 #Cloud{
     width: 500px;
@@ -141,79 +131,142 @@ h3 {
     background-image: url(../assets/images/Cloud_illustration.png);
 }
 
+.offers {
+    height: 60%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    gap: 30px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 25px;
+    padding: 5%;
+}
+
 #o1pic{
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
     background-size: cover;
     padding-left: 50px;
+    padding-bottom: 40px;
     background-image: url(../assets/images/o1pic.png);
 }
 
 #o2pic{
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
     background-size: cover;
     padding-left: 50px;
+    padding-bottom: 40px;
     background-image: url(../assets/images/o2pic.png);
 }
 
 #o3pic{
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
     background-size: cover;
     padding-left: 50px;
+    padding-bottom: 40px;
     background-image: url(../assets/images/o3pic.png);
 }
 
-.footer{
+#o4pic{
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    padding-left: 50px;
+    padding-bottom: 40px;
+    background-image: url(../assets/images/o4pic.png);
+}
+
+#o5pic{
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    padding-left: 50px;
+    padding-bottom: 40px;
+    background-image: url(../assets/images/o5pic.png);
+}
+
+.o1div {
+    gap: 55px;
+}
+
+.signup {
     height: 60%;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
     align-items: center;
-    gap: 30px;
-    margin-top: 2%;
     font-family: 'Montserrat', sans-serif;
-    border-top: 1px solid black;
-}
-
-.signup{
-    height: 60%;
-    font-family: 'Montserrat', sans-serif;
-    padding: 50px 350px 50px 350px;
-}
-
-#form{
-    padding: 1em;
+    padding: 5%;
+    padding:24px 32px 24px 32px;
+    margin: 200px;
     background-color: cornflowerblue;
-    border-radius: 24px;
-    line-height: 40px;
-    background-size: cover;
+    border-radius:24px;
+}
+
+.signupContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.signupText {
+    padding-bottom: 20px;
+    flex-direction: column;
+}
+
+.signupText > h2 {
+    font-size: x-large;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.toggleEmail{
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
-#signup_pic{
-    background-image: url(../assets/images/signup_pic.png);
-    width: 20px;
-    height: 20px;
-    padding: 20px;
+.toggleEmail > p {
+    font-size: small;
 }
 
-#signup {
+#SubmitButton {
+    width: fit-content;
+    border-radius: 6px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 7px;
+    transition-duration: 0.4s;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+#SubmitButton:hover {
+    background-color: forestgreen;
+    color: white;
+}
+
+#signupPic {
     background-size: cover;
-    font-size: xx-large;
+    background-image: url(/assets/images/signup_pic.png);
+    width: 450px;
+    height: 450px;
+    margin-left: 150px;
 }
 
-#input {
-    border: 1px solid white;
-    padding: .375rem .75rem;
-    border-radius: 12px;
-    width: -webkit-fill-available;
-    line-height: 15px;
+.plans {
+    height: 60%;
+    border-top: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
 }
-
-h1 {
-    font-weight: 700;
-}
-

@@ -14,7 +14,8 @@ h3 {
 }
 
 body{
-    background-color:#ffffff;
+    background-color: #121212;
+    color: white;
 }
 
 header{
@@ -24,7 +25,7 @@ header{
     justify-content: space-between;
     position: fixed;
     font-family: 'Montserrat', sans-serif;
-    background-color: #ffffff;
+    background-color: #121212;
     box-shadow: 0px 0px 80px gray;
 }
 
@@ -72,7 +73,6 @@ nav > ul > li:hover {
     font-weight: 900;
 }
 
-
 main {
     width: 100vw;
     height: calc(100vh - 100px);
@@ -84,7 +84,7 @@ main {
 .intro, #offers {
     width: 100vw;
     font-family: 'Montserrat', sans-serif;
-  }
+}
 
 .intro {
     display: flex;
@@ -119,16 +119,14 @@ main {
 #button:hover{
     background-color: cornflowerblue;
     color: white;
-
 }
-
 
 #Cloud{
     width: 500px;
     height: 500px;
     background-size: cover;
     background-position: center;
-    background-image: url(../assets/images/Cloud_illustration.png);
+    background-image: url(../assets/images/welcome.png);
 }
 
 .offers {
@@ -245,18 +243,18 @@ main {
 
 #SubmitButton {
     width: fit-content;
-    border-radius: 6px;
     background-color: white;
     color: black;
+    border-width: 0px;
     text-align: center;
     border-radius: 7px;
     transition-duration: 0.4s;
     padding: 0.375rem .75rem;
-
 }
 
-#SubmitButton:hover {forestgreen;
-    color: white;
+#SubmitButton:hover {
+    background-color: springgreen;
+    border-width: 5px;
 }
 
 #signupPic {

@@ -208,15 +208,18 @@ main {
     display: flex;
     flex-direction: column;
     align-items: left;
+    margin-left: 40px;
 }
 
 .signupText {
-    padding-bottom: 20px;
+    padding-bottom: 75px;
     flex-direction: column;
 }
 
 .signupText > h2 {
-    font-size: x-large;
+    padding-top: 15px;
+    font-size: xx-large;
+    font-weight: 600;
 }
 
 .inputs {
@@ -224,6 +227,10 @@ main {
     flex-direction: column;
     gap: 20px;
     padding-bottom: 20px;
+}
+
+#input1{
+    padding: 0.375rem .75rem;
 }
 
 .toggleEmail{
@@ -244,12 +251,11 @@ main {
     text-align: center;
     border-radius: 7px;
     transition-duration: 0.4s;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    padding: 0.375rem .75rem;
+
 }
 
-#SubmitButton:hover {
-    background-color: forestgreen;
+#SubmitButton:hover {forestgreen;
     color: white;
 }
 

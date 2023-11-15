@@ -16,7 +16,7 @@ retaurant.
 2. call to action (hero image)
 3. lunch
 4. dinner
-5. footer with locatign/contact info
+5. footer with location/contact info
 • The header section should be fixed to the top of the page [ON DESKTOP]
 regardless of what section the user is viewing.
 • Lunch and dinner sections should contain at least 5 items that each have.

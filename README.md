@@ -1,10 +1,5 @@
 # INM120 - Assignment 4
 
-**OVERVIEW:**
-Pick a store that you fancy and dive into the world of basic HTML and CSS Your mission?
-Create a captivating homepage for the client Show of your web desgin skills and make 
-sure to craft a page that will leave a lasting impression.
-
 **REQUIREMENTS:**
 • Use lite server.
 • Start with your template.

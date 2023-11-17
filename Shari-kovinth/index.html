@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/reset-css@3.0.0/reset.min.css"/>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+
+        <!-- FONTS -->
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        </style>
+
+        <title>The Cloud Pro | Homepage</title>
+    </head>
+    <body>
+        <!-- Top -->
+        <header class="header">
+            <div class="logo-container">
+                <figure id="logo" class="logo"></figure>
+                <div id="slogan" class="slogan">
+                    <h2>
+                        The Cloud  
+                        <img src="assets/images/pro-white.png" class="pro-image" alt="Pro">
+                    </h2>
+                    <p>Canadas #1 Cloud Network</p>
+                </div>
+            </div>
+            <nav class="navigation">
+                <ul class="nav-list">
+                    <li class="nav-item">Features</li>
+                    <li class="nav-item">Solutions</li>
+                    <li class="nav-item">Resources</li>
+                    <li class="nav-item">Pricing</li>
+                    <li class="nav-item">Sign in</li>
+                </ul>
+            </nav>
+        </header>
+        <!-- Top -->
+        <main>
+            <!-- Intro -->
+            <section class="intro">
+                <h1>Welcome to Cloud 
+                <img src="assets/images/pro-white.png" alt="Pro">
+                </h1>
+                <p>Canadas #1 Cloud Storage, Sync & Sharing Network.<br/>The safe space
+                    to get your best work done.</p>
+                    <button id="back-to-top" class="back-to-top">Top</button>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+                    <button id="button">Explore Our Plans</button>
+                </a>
+                <figure id="Cloud"></figure>
+            </section>
+            <!-- Intro -->
+            <!-- Add this button to your HTML -->
+            <!-- Offers -->
+            <section class="offers">
+                <article Class="o1">
+                    <div class="o1div">
+                        <figure id="o1pic"></figure>
+                        <h3>Access your files from anywhere, any time</h3>
+                        <p>Access your files instantly from all your computers, mobile devices and the web.Work from home, from the office or from the most idea-inspiringplaces on the planet.</p>
+                    </div>
+                </article>
+
+                <article class="o2">
+                    <figure id="o2pic"></figure>
+                    <h3>Share and collaborate securely inside & outside your organization</h3>
+                    <p>Create centralized folders that your internal team members and external collaborators can easily access. Manage permissions to keep your most important work protected at all times.</p>
+                </article>
+
+                <article class="o3">
+                    <figure id="o3pic"></figure>
+                    <h3>Keep your work safe, secure and private for peace of mind</h3>
+                    <p>Sync includes groundbreaking privacy protection features, enterprise grade infrastructure and certification with the most widely accepted security and privacy regulations worldwide. Your data is safe with Sync.</p>
+                </article>
+
+                <article class="o4">
+                    <figure id="o4pic"></figure>
+                    <h3>Works with all the apps you know and love</h3>
+                    <p>Windows and macOS desktop integration allows you to use all the desktop productivity apps you use everyday, with everything always in Sync.</p>
+                </article>
+                
+                <article class="o5">
+                    <figure id="o5pic"></figure>
+                    <h3>Backup and restore made easy</h3>
+                    <p>Protect your files from ransomware, hardware failure and human error with the ability to rollback any file to any previous date or time</p>
+                </article>
+            </section>
+            <!-- Offers -->
+            <!-- SignUp -->
+            <section class="signup">
+                <div class="signupContainer">
+                    <div class="signupText">
+                        <p>Don't Have An Account?</p>
+                        <h2>Sign Up!</h2>
+                    </div>
+                    <div class="inputs">
+                        <input type="email" placeholder="Email (KosarKardan@CloudPro.ca)" id="input1">
+                        <input type="password" placeholder="Password" id="input1">
+                    </div>
+                    <div class="toggleEmail">
+                        <input id="toggle" value="1" type="checkbox">
+                        <p>Newsletter Club</p>
+                    </div>
+                    <div class="toggleEmail" style="padding-bottom: 20px;">
+                        <input id="toggle" value="1" type="checkbox">
+                        <p>I accept the Terms and Privacy Policy</p>
+                    </div>
+                    <div class="submit">
+                        <input type="button" onclick="validateForm();" value="Create your free account" id="SubmitButton">
+                    </div>
+                </div>
+                <div class="signupAside">
+                    <figure id="signupPic"></figure>
+                </div>
+            </section>
+            <!-- SignUp -->
+            <!-- Plans -->
+            <section class="plans">
+                <div class="plansContainer">
+                    <div class="plansText">
+                        <h2>
+                            Chose Your Cloud
+                            <img src="assets/images/cloud.png" alt="" style="width: 95px;">
+                        </h2>
+                        <p>Pick a cloud that suits you the best</p>
+                    </div>
+                </div>
+                <div class="planBoxs">
+                    <div class="plan1">
+                        <div class="planContent">
+                            <h2>Solo</h2>
+                            <p>For the alone wolf that only needs enough for one person</p>
+                            <hr>
+                            <div class="planFeatures">
+                                <p>Top Features:</p>
+                                <ul>
+                                    <li>- 35GB</li>
+                                    <li>- Phone Support</li>
+                                </ul>
+                            </div>
+                            <hr>
+                            <div id="price">
+                                <p>$6 CAD </p>
+                                <p>Billed Monthly</p>
+                            </div>
+                            <div id="planBtn">
+                                <button type="submit" class="planBtn">Buy Now</button>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="assets/images/solo.png" alt="" class="planImage">
+                        </div>
+                    </div>
+                    <div class="plan2">
+                        <div class="planContent">
+                            <h2>Family</h2>
+                            <p>For a family that wants to store valuable memories.</p>
+                            <hr>
+                            <div class="planFeatures">
+                                <p>Top Features:</p>
+                                <ul>
+                                    <li>- Parental Control</li>
+                                    <li>- Max 4 accounts</li>
+                                    <li>- Automatic Camera Roll Backup</li>
+                                </ul>
+                            </div>
+                            <hr>
+                            <div id="price">
+                                <p>$15 CAD </p>
+                                <p>Billed Monthly</p>
+                            </div>
+                                <button type="submit" class="planBtn">Buy Now</button>
+                        </div>
+                        <div>
+                            <img src="assets/images/family.png" alt="" class="planImage">
+                        </div>
+                    </div>
+                    <div class="plan3">
+                        <div class="planContent">
+                            <h2>Crew</h2>
+                            <p>For teams and those seeking advanced storage options.</p>
+                            <hr>
+                            <div class="planFeatures">
+                                <p>Top Features:</p>
+                                <ul>
+                                    <li>- Auto sync across all platforms</li>
+                                    <li>- Up to 10 acconts</li>
+                                    <li>- Account manager</li>
+                                </ul>
+                            </div>
+                            <hr>
+                            <div id="price">
+                                <p>$20 CAD </p>
+                                <p>Billed Monthly</p>
+                            </div>
+                                <button type="submit" class="planBtn">Buy Now</button>
+                        </div>
+                        <div>
+                            <img src="assets/images/crew.png" alt="" class="planImage">
+                        </div>
+                    </div>
+                    <div class="plan4">
+                        <div class="planContent">
+                            <h2>Enterprise</h2>
+                            <p>For companies that need enhanced org-wide controls with 100+ users.</p>
+                            <hr>
+                            <div class="planFeatures">
+                                <p>Top Features:</p>
+                                <ul>
+                                    <li>- File Timelines</li>
+                                    <li>- 24/7 support</li>
+                                    <li>- Custom Branding</li>
+                                </ul>
+                            </div>
+                            <hr>
+                            <div id="price">
+                                <p>$35 CAD </p>
+                                <p>Billed Monthly</p>
+                            </div>
+                                <button type="submit" class="planBtn">Buy Now</button>
+                        </div>
+                        <div>
+                            <img src="assets/images/company.png" alt="" class="planImage">
+                        </div>
+                    </div>
+                    <div class="plan5">
+                        <div class="planContent">
+                            <h2>Unlimited</h2>
+                            <p>For those who are crazy.</p>
+                            <hr>
+                            <div class="planFeatures">
+                                <p>Top Features:</p>
+                                <ul>
+                                    <li>- TB's of secure storage</li>
+                                    <li>- Administrator account</li>
+                                    <li>- Custom requirments</li>
+                                    <li>- Training options</li>
+                                    <li>- Free candy</li>
+                                </ul>
+                            </div>
+                            <hr>
+                            <div id="price">
+                                <p>Contact us for a free qoute!</p>
+                            </div>
+                                <button type="submit" class="planBtn">Buy Now</button>
+                        </div>
+                        <div>
+                            <img src="assets/images/unlimted.png" alt="" class="planImage" id="plan5pic">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Plans -->
+            <!-- Footer -->
+            <section class="footer">
+                <div class="footerContainer">
+                    <div class="contact">
+                        <h2>Contact</h2>
+                        <p>Email: Sachianhari@gmail.com</p>
+                        <p>PO Box: 4001 STN A <br>Victoria BC V8X 3X4</p>
+                    </div>
+                    <div class="location">
+                        <h2>Location</h2>
+                        <p>1425 James ST <br>Victoria BC V8X 3X4</p>
+                    </div>
+                </div>
+                <div class="extra">
+                    <h2>Copyright © 2023 CloudPro.com, Inc.</h2>
+                </div>
+            </section>
+            <!-- Footer -->
+        </main>
+        <script src="main.js"></script>
+    </body>
+</html>

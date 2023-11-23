@@ -1,0 +1,15 @@
+{
+  "name": "shari-kovinth",
+  "version": "1.0.0",
+  "description": "**REQUIREMENTS:**\r • Use lite server.\r • Start with your template.\r • Use CSS reset loaded from a CDN.\r • All your CSS must be in an external stylesheet loaded with a relative path\r • Your Site Should coniain 5 content sections (For example if the webbpage is a\r retaurant.\r 1. header with logo and main nav\r 2. call to action (hero image)\r 3. lunch\r 4. dinner\r 5. footer with location/contact info\r • The header section should be fixed to the top of the page [ON DESKTOP]\r regardless of what section the user is viewing.\r • Lunch and dinner sections should contain at least 5 items that each have.\r - Image\r - Name\r - Short Description\r • Use flexbox ON DESKTOP to display menu items in two or more rows.\r • The footer section will includes the addiess hours, contact, (phone\r and address) and a link to the top of the page.",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run lite",
+    "lite": "lite-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
